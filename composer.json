@@ -1,0 +1,25 @@
+{
+  "name": "freezemage0/100daysofcode",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Freezemage",
+      "email": "freezemage0@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Freezemage\\Blog\\": "src/"
+    }
+  },
+  "require": {
+    "slim/slim": "^4.9",
+    "doctrine/orm": "^2.11",
+    "slim/psr7": "^1.5",
+    "php-di/php-di": "^6.3",
+    "php-di/slim-bridge": "^3.2",
+    "twig/twig": "^3.3"
+  }
+}
